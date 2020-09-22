@@ -7,6 +7,7 @@
 <ul>
   <li> <b>rfidml.ipynb</b> is the jupyter notebook for computing the predictive model, evaluate it and simulate the operation of the smartgate versus a normal gate
   <li> <b>modelrfid.h5</b> are the precomputed weights for the predictive neural network. This network outputs the expected batch identification policy using a given policy for the actual batch
+  <li> <b>modelrfidR3_time_plm.h5</b> are the precomputed weights for the auxiliary neural network used to predict interrogation time in the smartgate simulator
   <li> <b>batches.txt</b> contains the simulatation results from the interrogation of 120000 tag batches with random placement, properties, and antennas selection policies
     </ul>
     
